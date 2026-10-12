@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de desarrollo web de Tu Nombre">
+    <title>Tu Nombre | Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar container" aria-label="Navegación principal">
+        <a class="logo" href="#inicio">TuNombre<span>.</span></a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Abrir menú"
+            aria-expanded="false"
+            aria-controls="nav-links">
+            ☰
+        </button>
+
+        <div class="nav-links" id="nav-links">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero container" id="inicio">
+        <div class="hero-content">
+            <p class="eyebrow">Hola, soy</p>
+            <h1>Tu Nombre</h1>
+            <h2>Desarrollador/a web</h2>
+            <p>
+                Diseño y desarrollo sitios web modernos, accesibles y
+                adaptables a cualquier dispositivo.
+            </p>
+
+            <div class="hero-buttons">
+                <a class="button button-primary" href="#proyectos">
+                    Ver mis proyectos
+                </a>
+                <a class="button button-secondary" href="#contacto">
+                    Contactarme
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-avatar" aria-label="Iniciales de Tu Nombre">TN</div>
+    </section>
+
+    <section class="section container" id="sobre-mi">
+        <p class="eyebrow">Un poco sobre mí</p>
+        <h2>¿Quién soy?</h2>
+
+        <div class="about-content">
+            <p>
+                Soy estudiante de programación web y me interesa crear
+                experiencias digitales sencillas y útiles. Disfruto aprender
+                nuevas tecnologías y convertir ideas en proyectos.
+            </p>
+            <p>
+                Actualmente trabajo con HTML, CSS y JavaScript. También estoy
+                aprendiendo herramientas y lenguajes para desarrollar
+                aplicaciones completas.
+            </p>
+        </div>
+
+        <h3 class="skills-title">Tecnologías</h3>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Git</span>
+            <span>Diseño responsive</span>
+        </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+        <div class="container">
+            <p class="eyebrow">Lo que he creado</p>
+            <h2>Mis proyectos</h2>
+            <p class="section-description">
+                Algunos trabajos que muestran lo que sé hacer y lo que sigo
+                aprendiendo.
+            </p>
+
+            <div class="project-filters" aria-label="Filtrar proyectos">
+                <button class="filter-button active" data-filter="todos">
+                    Todos
+                </button>
+                <button class="filter-button" data-filter="frontend">
+                    Frontend
+                </button>
+                <button class="filter-button" data-filter="javascript">
+                    JavaScript
+                </button>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card" data-category="javascript">
+                    <div class="project-number">01</div>
+                    <h3>Lista de tareas</h3>
+                    <p>
+                        Aplicación para agregar, completar y eliminar tareas
+                        desde el navegador.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+https://github.com/TU-USUARIO
